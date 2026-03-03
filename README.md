@@ -1,11 +1,11 @@
 @'
-# 🚗 Collision Detection using YOLOv8
+# Collision Detection using YOLOv8
 
 This project implements real-time collision detection using YOLOv8 for image and video-based collision detection.
 
 ---
 
-##  Model File (Required)
+## Model File (Required)
 
 The full trained model file exceeds GitHub's 100MB size limit and is hosted externally.
 
@@ -30,11 +30,15 @@ The full model provides better accuracy.
    python -m venv venv  
    venv\Scripts\activate  
 
-2. Install required dependencies
+2. Upgrade pip
+
+   python -m pip install --upgrade pip setuptools wheel
+
+3. Install required dependencies
 
    pip install -r requirements.txt
 
-3. Run the project
+4. Run the project
 
    python start.py
 
